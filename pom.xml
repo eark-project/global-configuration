@@ -25,6 +25,21 @@
         </license>
     </licenses>
 
+    <mailingLists>
+        <mailingList>
+            <name>all</name>
+            <subscribe>mailto:imailsrv@earkadmin.com?body=subscribe%20all%20your_full_name</subscribe>
+            <unsubscribe>mailto:imailsrv@earkadmin.com?body=unsubscribe%20all</unsubscribe>
+            <post>mailto:all@earkadmin.com</post>
+        </mailingList>
+        <mailingList>
+            <name>technical</name>
+            <subscribe>mailto:imailsrv@earkadmin.com?body=subscribe%20technical%20your_full_name</subscribe>
+            <unsubscribe>mailto:imailsrv@earkadmin.com?body=unsubscribe%20technical</unsubscribe>
+            <post>mailto:technical@earkadmin.com</post>
+        </mailingList>
+    </mailingLists>
+    
     <prerequisites>
         <maven>3.0.4</maven>
     </prerequisites>
